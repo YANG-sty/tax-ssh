@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tax-ssh:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a122657c-dc4c-4565-863c-0d916351e581" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="struts_2_3" />
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1R5ymaPPd7BoEbbtYvpQvFUvSde" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/util/uedit_jar包" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15306123" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sys.basecore.service" />
+      <recent name="com.sys.basecore.permission" />
+      <recent name="com.sys.nsfw.user.entity" />
+      <recent name="com.sys.nsfw.role.entity" />
+      <recent name="com.sys.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Idea_Workspace\tax-ssh\web\js" />
+      <recent name="E:\Idea_Workspace\tax-ssh\web\WEB-INF\jsp\nsfw\info" />
+      <recent name="E:\Idea_Workspace\tax-ssh\src\com\sys\nsfw\info\config" />
+      <recent name="E:\Idea_Workspace\tax-ssh\src\com\sys\nsfw\info\entity" />
+      <recent name="E:\Idea_Workspace\tax-ssh\src\com\sys\nsfw\info\dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sys.nsfw.role.entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Idea_Workspace\tax-ssh\web\WEB-INF\jsp" />
+      <recent name="E:\Idea_Workspace\tax-ssh\dateBase" />
+      <recent name="E:\Idea_Workspace\tax-ssh\web\WEB-INF\jsp\test" />
+      <recent name="E:\Idea_Workspace\tax-ssh" />
+      <recent name="E:\Idea_Workspace\tax-ssh\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9">
+    <configuration name="TestMerge.testTransationRollback" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tax-ssh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sys.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sys.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sys.test.TestMerge" />
+      <option name="METHOD_NAME" value="testTransationRollback" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMerge.testfindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tax-ssh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sys.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sys.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sys.test.TestMerge" />
+      <option name="METHOD_NAME" value="testfindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPOI2Excel.testExcelStyle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tax-ssh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sys.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sys.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sys.test.TestPOI2Excel" />
+      <option name="METHOD_NAME" value="testExcelStyle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPOI2Excel.testRead03And07Excel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tax-ssh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sys.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sys.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sys.test.TestPOI2Excel" />
+      <option name="METHOD_NAME" value="testRead03And07Excel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAction.exportExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tax-ssh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sys.nsfw.user.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sys.nsfw.user.action" />
+      <option name="MAIN_CLASS_NAME" value="com.sys.nsfw.user.action.UserAction" />
+      <option name="METHOD_NAME" value="exportExcel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="tax-ssh:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/tax_ssh_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_tax-ssh" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60436" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tax-ssh:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestMerge.testfindByName" />
+      <item itemvalue="JUnit.TestMerge.testTransationRollback" />
+      <item itemvalue="JUnit.TestPOI2Excel.testExcelStyle" />
+      <item itemvalue="JUnit.TestPOI2Excel.testRead03And07Excel" />
+      <item itemvalue="JUnit.UserAction.exportExcel" />
+      <item itemvalue="Tomcat Server.Tomcat 9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMerge.testTransationRollback" />
+        <item itemvalue="JUnit.TestMerge.testfindByName" />
+        <item itemvalue="JUnit.UserAction.exportExcel" />
+        <item itemvalue="JUnit.TestPOI2Excel.testExcelStyle" />
+        <item itemvalue="JUnit.TestPOI2Excel.testRead03And07Excel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a122657c-dc4c-4565-863c-0d916351e581" name="Default Changelist" comment="" />
+      <created>1568971410776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568971410776</updated>
+      <workItem from="1568971414565" duration="84978000" />
+      <workItem from="1570417554585" duration="111948000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/user/service/impl/UserServiceImpl.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/user/action/UserAction.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/basecore/util/ExcelUtil.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Desktop/util/poi开发包/需要导入的jar包/poi-3.11-20141221.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.class</url>
+          <line>98</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/test/TestPOI2Excel.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/user/service/impl/UserServiceImpl.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/user/service/impl/UserServiceImpl.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/role/action/RoleAction.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/user/service/impl/UserServiceImpl.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="((ProxyFactory)((JdkDynamicAopProxy)this.h).advised).optimize" custom="org.springframework.aop.framework.JdkDynamicAopProxy,org.springframework.aop.framework.ProxyFactory,java.lang.reflect.Proxy" />
+        <watch expression="pageContext" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+</project>

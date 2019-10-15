@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tax-ssh:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="tax-ssh/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tax-ssh" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="ssh开发包" />
+          <element id="library" level="project" name="junit-4.4" />
+          <element id="library" level="project" name="需要导入的jar包" />
+          <element id="library" level="project" name="uedit_jar包" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

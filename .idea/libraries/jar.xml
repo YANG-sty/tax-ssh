@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="需要导入的jar包">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/util/poi开发包/需要导入的jar包" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Desktop/util/poi开发包/需要导入的jar包" recursive="false" />
+  </library>
+</component>

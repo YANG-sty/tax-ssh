@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.sys.nsfw.role.entity.Role" table="role">
+        <id name="roleId" type="java.lang.String">
+            <column name="role_id" length="32" />
+            <generator class="uuid" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="name" length="20" not-null="true" />
+        </property>
+        <property name="state" type="java.lang.String">
+            <column name="state" length="1" />
+        </property>
+        <!-- 一对多的关系 -->
+        <!--
+               inverse 为true 一对多的关系，放弃该表的关系维护，由多方进行维护
+               role_id 中间表的字段
+               <one-to-many> 对应的一对多的关系是哪个表
+               lazy="false" 角色进行加载的时候将角色的信息全部加载出来。
+        -->
+        <set name="rolePrivileges" inverse="true" lazy="false" cascade="save-update,delete">
+            <key>
+                <column name="role_id"></column>
+            </key>
+            <one-to-many class="com.sys.nsfw.role.entity.RolePrivilege"/>
+        </set>
+    </class>
+</hibernate-mapping>
