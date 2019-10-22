@@ -45,7 +45,14 @@
             document.forms[0].action = "${basePath}nsfw/user_importExcel.action";
             document.forms[0].submit();
         }
-
+    var list_url = "${basePath}nsfw/user_listUI.action";
+    //搜索
+    function doSearch() {
+        //重置页号
+        $("#pageNo").val(1);
+        document.forms[0].action = list_url;
+        document.forms[0].submit();
+    }
 
     </script>
 </head>
@@ -57,7 +64,7 @@
                 <div class="c_crumbs"><div><b></b><strong>用户管理</strong></div> </div>
                 <div class="search_art">
                     <li>
-                        用户名：<s:textfield name="user.name" cssClass="s_text" id="userName"  cssStyle="width:160px;"/>
+                        账&nbsp;号：<s:textfield name="user.account" cssClass="s_text" id="userAccount"  cssStyle="width:160px;"/>
                     </li>
                     <li><input type="button" class="s_button" value="搜 索" onclick="doSearch()"/></li>
                     <li style="float:right;">
@@ -81,7 +88,7 @@
                             <td align="center">电子邮箱</td>
                             <td width="100" align="center">操作</td>
                         </tr>
-                        <s:iterator value="userList" status="st">
+                        <s:iterator value="pageResult.items" status="st">
                             <tr <s:if test="#st.odd">bgcolor="f8f8f8"</s:if> >
                                 <td align="center"><input type="checkbox" name="selectedRow" value="<s:property value='id'/>" /></td>
                                 <td align="center"><s:property value="name"/></td>
@@ -98,19 +105,7 @@
                     </table>
                 </div>
             </div>
-        <div class="c_pate" style="margin-top: 5px;">
-		<table width="100%" class="pageDown" border="0" cellspacing="0"
-			cellpadding="0">
-			<tr>
-				<td align="right">
-                 	总共1条记录，当前第 1 页，共 1 页 &nbsp;&nbsp;
-                            <a href="#">上一页</a>&nbsp;&nbsp;<a href="#">下一页</a>
-					到&nbsp;<input type="text" style="width: 30px;" onkeypress="if(event.keyCode == 13){doGoPage(this.value);}" min="1"
-					max="" value="1" /> &nbsp;&nbsp;
-			    </td>
-			</tr>
-		</table>	
-        </div>
+            <jsp:include page="/common/pageNavigator.jsp"/>
         </div>
     </div>
 </form>

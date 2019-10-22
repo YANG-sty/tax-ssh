@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.sys.nsfw.complain.test.ComplainReply" table="complain_reply" schema="tax">
+        <id name="replyId" column="reply_id"/>
+        <property name="replyer" column="replyer"/>
+        <property name="replyDept" column="reply_dept"/>
+        <property name="replyTime" column="reply_time"/>
+        <property name="replyContent" column="reply_content"/>
+        <many-to-one name="complainByCompId" class="com.sys.nsfw.complain.test.Complain">
+            <column name="comp_id"/>
+        </many-to-one>
+    </class>
+</hibernate-mapping>

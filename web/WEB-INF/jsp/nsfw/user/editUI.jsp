@@ -129,6 +129,8 @@
         </tr>
     </table>
     <s:hidden name="user.id"/>
+    <s:hidden name="strAccount"/>
+    <s:hidden name="pageNo"/>
     <div class="tc mt20">
         <input type="button" class="btnB2" value="保存" onclick="doSubmit()" />
         &nbsp;&nbsp;&nbsp;&nbsp;

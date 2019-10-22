@@ -40,12 +40,18 @@
 		</property>
 		<property name="mappingLocations">
 			<list>
+				<value>classpath:com/sys/nsfw/*/entity/*.hbm.xml</value>
+				<value>classpath:com/sys/test/entity/Person.hbm.xml</value>
+				<!--
 				<value>classpath:com/sys/nsfw/user/entity/User.hbm.xml</value>
 				<value>classpath:com/sys/nsfw/user/entity/UserRole.hbm.xml</value>
 				<value>classpath:com/sys/nsfw/role/entity/Role.hbm.xml</value>
 				<value>classpath:com/sys/nsfw/info/entity/Info.hbm.xml</value>
 				<value>classpath:com/sys/nsfw/role/entity/RolePrivilege.hbm.xml</value>
 				<value>classpath:com/sys/test/entity/Person.hbm.xml</value>
+				<value>classpath:com/sys/nsfw/complian/entity/Complain.hbm.xml</value>
+				<value>classpath:com/sys/nsfw/complian/entity/ComplainReply.hbm.xml</value>
+				-->
 			</list>
 		</property>
 	</bean>
@@ -82,10 +88,11 @@
 	<bean id="permissionCheck" class="com.sys.basecore.permission.impl.PermissionCheckImpl"></bean>
 
 	<!-- 引入外部sprign配置文件 -->
+	<import resource="classpath:com/sys/nsfw/*/config/*-spring.xml"/>
     <import resource="classpath:com/sys/test/conf/test-spring.xml"/>
-    <import resource="classpath:com/sys/nsfw/user/config/user-spring.xml"/>
+    <!--<import resource="classpath:com/sys/nsfw/user/config/user-spring.xml"/>
 	<import resource="classpath:com/sys/nsfw/role/config/role-spring.xml"/>
-	<import resource="classpath:com/sys/nsfw/info/config/info-spring.xml"/>
+	<import resource="classpath:com/sys/nsfw/info/config/info-spring.xml"/>-->
 
 
 </beans>

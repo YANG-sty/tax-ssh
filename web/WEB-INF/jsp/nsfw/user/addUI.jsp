@@ -126,6 +126,9 @@
             <td><s:textarea name="user.remarks" cols="75" rows="3"/></td>
         </tr>
     </table>
+    <%-- 保存搜索信息 --%>
+    <s:hidden name="strAccount"/>
+    <s:hidden name="pageNo"/>
     <div class="tc mt20">
         <input type="button" class="btnB2" value="保存" onclick="doSubmit()"/>
         &nbsp;&nbsp;&nbsp;&nbsp;

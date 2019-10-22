@@ -6,23 +6,221 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a122657c-dc4c-4565-863c-0d916351e581" name="Default Changelist" comment="" />
+    <list default="true" id="a122657c-dc4c-4565-863c-0d916351e581" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsonjar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/quartzjar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ssh/id_rsa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ssh/id_rsa.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateBase/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/basecore/page/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/basecore/util/QueryHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/action/ComplainAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/config/complain-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/config/complain-struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/dao/ComplainDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/dao/impl/ComplainDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/entity/Complain.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/entity/Complain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/entity/ComplainReply.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/entity/ComplainReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/service/ComplainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/service/impl/ComplainServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/test/Complain.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/test/Complain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/test/ComplainReply.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sys/nsfw/complain/test/ComplainReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/home/complainAddUI.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/home/complainViewUI.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/home/infoViewUI.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/complain/annualStatisticChartUI.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/complain/dealUI.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/complain/listUI.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/common/pageNavigator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/fusioncharts/fusioncharts.charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/fusioncharts/fusioncharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/fusioncharts/themes/fusioncharts.theme.carbon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/fusioncharts/themes/fusioncharts.theme.fint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/fusioncharts/themes/fusioncharts.theme.ocean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/fusioncharts/themes/fusioncharts.theme.zune.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/upload/user/userExcelTemplate.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/upload/user/用户列表.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/tax_ssh_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/tax_ssh_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/META-INF/tax-ssh.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/basecore/action/BaseAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/basecore/action/BaseAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/basecore/dao/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/basecore/dao/BaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/basecore/dao/impl/BaseDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/basecore/dao/impl/BaseDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/basecore/service/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/basecore/service/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/basecore/service/impl/BaseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/basecore/service/impl/BaseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/home/action/HomeAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/home/action/HomeAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/home/config/home-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/home/config/home-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/info/action/InfoAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/info/action/InfoAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/info/config/info-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/info/config/info-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/role/action/RoleAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/role/action/RoleAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/role/config/role-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/role/config/role-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/user/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/user/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/user/config/user-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/com/sys/nsfw/user/config/user-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/home/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/home/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/info/addUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/info/addUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/info/editUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/info/editUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/info/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/info/listUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/role/addUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/role/addUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/role/editUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/role/editUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/role/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/role/listUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/user/addUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/user/addUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/user/editUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/user/editUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/user/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/WEB-INF/jsp/nsfw/user/listUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571124893875057063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571124893909083998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571124893951000935.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125532035043420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125532266063147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125532462092032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125532502058887.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125532522046166.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125532619070409.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125532645022317.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533002082381.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533026068920.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533044068129.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533062049389.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533083013137.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533136027520.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533160029185.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533478032913.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533614075297.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533652015014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533918002966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533947090975.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125533965059975.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125534010054727.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125534035019688.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125534057042495.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125534075050813.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125534500043445.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125534518006411.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125534534003231.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125534883090325.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125534899092918.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/ueditor/jsp/upload/image/20191015/1571125534937054211.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/upload/ueditor/image/20191015/1571122518244009683.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/upload/ueditor/image/20191015/1571123146372026329.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/upload/ueditor/image/20191015/1571124199163061510.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/upload/user/088edbe2ad0f44618bc7db909d6aa76f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/upload/user/268a29037c89446f83c88c4bf4606337.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/upload/user/7dcb61b9119746309f2566ae5708cf50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/upload/user/c994f59f344a40c886ed80089a72a84b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tax_ssh_war_exploded/upload/user/cfbcfdb8d62941cfad2b9f0b991e4811.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/META-INF/tax-ssh.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/basecore/action/BaseAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/basecore/action/BaseAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/basecore/dao/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/basecore/dao/BaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/basecore/dao/impl/BaseDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/basecore/dao/impl/BaseDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/basecore/service/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/basecore/service/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/basecore/service/impl/BaseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/basecore/service/impl/BaseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/home/action/HomeAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/home/action/HomeAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/home/config/home-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/home/config/home-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/info/action/InfoAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/info/action/InfoAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/info/config/info-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/info/config/info-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/role/action/RoleAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/role/action/RoleAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/role/config/role-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/role/config/role-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/user/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/user/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/user/config/user-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/com/sys/nsfw/user/config/user-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tax-ssh/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tax-ssh/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/basecore/action/BaseAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/basecore/action/BaseAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/basecore/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/basecore/dao/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/basecore/dao/impl/BaseDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/basecore/dao/impl/BaseDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/basecore/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/basecore/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/basecore/service/impl/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/basecore/service/impl/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/home/action/HomeAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/home/action/HomeAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/home/config/home-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/home/config/home-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/nsfw/info/action/InfoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/nsfw/info/action/InfoAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/nsfw/info/config/info-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/nsfw/info/config/info-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/nsfw/role/action/RoleAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/nsfw/role/action/RoleAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/nsfw/role/config/role-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/nsfw/role/config/role-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/nsfw/user/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/nsfw/user/action/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sys/nsfw/user/config/user-struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sys/nsfw/user/config/user-struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tax-ssh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tax-ssh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/home/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/home/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/info/addUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/info/addUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/info/editUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/info/editUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/info/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/info/listUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/role/addUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/role/addUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/role/editUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/role/editUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/role/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/role/listUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/user/addUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/user/addUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/user/editUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/user/editUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/user/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/nsfw/user/listUI.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - tax@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - tax@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - tax@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tax: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - tax@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tax: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="complain_reply: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tax-ssh" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="struts_2_3" />
         <option value="spring-beans.schema" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -32,39 +230,51 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1R5ymaPPd7BoEbbtYvpQvFUvSde" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="273c5981-3e77-439f-a1ed-995afdf8d05a" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/util/uedit_jar包" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/jsp/home" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15306123" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Idea_Workspace\tax-ssh\src\com\sys\nsfw\complain\test" />
+      <recent name="E:\Idea_Workspace\tax-ssh\web\WEB-INF\jsp" />
+      <recent name="E:\Idea_Workspace\tax-ssh\dateBase" />
+      <recent name="E:\Idea_Workspace\tax-ssh\web\WEB-INF\jsp\test" />
+      <recent name="E:\Idea_Workspace\tax-ssh" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.sys.nsfw.complian.entity" />
+      <recent name="" />
+      <recent name="com.sys.nsfw" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Idea_Workspace\tax-ssh\web\WEB-INF\jsp\home" />
+      <recent name="E:\Idea_Workspace\tax-ssh\web\js" />
+      <recent name="E:\Idea_Workspace\tax-ssh\src\com\sys\nsfw\complain\entity" />
+      <recent name="E:\Idea_Workspace\tax-ssh\src\com\sys\nsfw\complian\config" />
+      <recent name="E:\Idea_Workspace\tax-ssh\web\WEB-INF\jsp\nsfw" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sys.nsfw.role.entity" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.sys.basecore.service" />
       <recent name="com.sys.basecore.permission" />
       <recent name="com.sys.nsfw.user.entity" />
       <recent name="com.sys.nsfw.role.entity" />
       <recent name="com.sys.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Idea_Workspace\tax-ssh\web\js" />
-      <recent name="E:\Idea_Workspace\tax-ssh\web\WEB-INF\jsp\nsfw\info" />
-      <recent name="E:\Idea_Workspace\tax-ssh\src\com\sys\nsfw\info\config" />
-      <recent name="E:\Idea_Workspace\tax-ssh\src\com\sys\nsfw\info\entity" />
-      <recent name="E:\Idea_Workspace\tax-ssh\src\com\sys\nsfw\info\dao" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sys.nsfw.role.entity" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Idea_Workspace\tax-ssh\web\WEB-INF\jsp" />
-      <recent name="E:\Idea_Workspace\tax-ssh\dateBase" />
-      <recent name="E:\Idea_Workspace\tax-ssh\web\WEB-INF\jsp\test" />
-      <recent name="E:\Idea_Workspace\tax-ssh" />
-      <recent name="E:\Idea_Workspace\tax-ssh\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,6 +459,22 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.16615146" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7382a3e2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -260,12 +486,31 @@
       <option name="presentableId" value="Default" />
       <updated>1568971410776</updated>
       <workItem from="1568971414565" duration="84978000" />
-      <workItem from="1570417554585" duration="111948000" />
+      <workItem from="1570417554585" duration="132959000" />
+      <workItem from="1571270663647" duration="75782000" />
+      <workItem from="1571655475268" duration="3259000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -277,7 +522,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/sys/nsfw/user/action/UserAction.java</url>
-          <line>167</line>
+          <line>195</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -306,14 +551,34 @@
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/role/action/RoleAction.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="79" />
+          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/info/action/InfoAction.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/user/service/impl/UserServiceImpl.java</url>
-          <line>207</line>
-          <option name="timeStamp" value="81" />
+          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/user/action/UserAction.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/user/action/UserAction.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/nsfw/role/action/RoleAction.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/home/action/HomeAction.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sys/home/action/HomeAction.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="144" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -11,6 +11,8 @@
             <!--     当 action 中的方法结果为 list 的时候 ，进行重定向       -->
             <result name="list" type="redirectAction">
                 <param name="actionName">user_listUI</param>
+                <param name="user.account">${strAccount}</param>
+                <param name="pageNo">${pageNo}</param>
             </result>
         </action>
     </package>

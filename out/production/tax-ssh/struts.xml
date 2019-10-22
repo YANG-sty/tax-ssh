@@ -36,7 +36,6 @@
 			<exception-mapping result="input" exception="java.lang.Exception"></exception-mapping>
 		</global-exception-mappings>
 	</package>
-	
 	<!-- 包含test的struts配置文件 -->
 	<include file="com/sys/test/conf/test-struts.xml"></include>
 	<!-- 包含用户管理的struts配置文件 -->
@@ -51,4 +50,8 @@
 	<include file="com/sys/nsfw/home/config/home-struts.xml"></include>
 	<!-- 包含 信息发布管理 的 struts 配置文件 -->
 	<include file="com/sys/nsfw/info/config/info-struts.xml"></include>
+	<!-- 包含 投诉管理的 struts 配置文件 -->
+	<include file="com/sys/nsfw/complain/config/complain-struts.xml"></include>
+
+
 </struts>

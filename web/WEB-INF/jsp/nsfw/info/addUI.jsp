@@ -52,6 +52,9 @@
         </tr>
     </table>
     <!-- 默认信息状态为 发布 -->
+    <%--  暂存查询条件 --%>
+    <s:hidden name = "strTitle"/>
+    <s:hidden name="pageNo"/>
     <s:hidden name="info.state" value="1"/>
     <div class="tc mt20">
         <input type="submit" class="btnB2" value="保存" />

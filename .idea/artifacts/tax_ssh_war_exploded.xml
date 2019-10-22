@@ -12,6 +12,8 @@
           <element id="library" level="project" name="junit-4.4" />
           <element id="library" level="project" name="需要导入的jar包" />
           <element id="library" level="project" name="uedit_jar包" />
+          <element id="library" level="project" name="json格式数据jar包" />
+          <element id="library" level="project" name="quartz任务调度jar包" />
         </element>
       </element>
     </root>
