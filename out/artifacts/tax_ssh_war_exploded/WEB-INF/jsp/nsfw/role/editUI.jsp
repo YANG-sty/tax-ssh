@@ -28,6 +28,8 @@
         </tr>
     </table>
     <s:hidden name="role.roleId"/>
+    <s:hidden name="strName"/>
+    <s:hidden name="pageNo"/>
     <div class="tc mt20">
         <input type="submit" class="btnB2" value="保存" />
         &nbsp;&nbsp;&nbsp;&nbsp;

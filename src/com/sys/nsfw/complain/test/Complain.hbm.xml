@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<!-- todo 逆向生成的实体类没有什么问题，生成的配置文件中没有 实体的属性类型和数据库表的类型-->
+    <class name="com.sys.nsfw.complain.test.Complain" table="complain" schema="tax">
+        <id name="compId" column="comp_id"/>
+        <property name="compCompany" column="comp_company"/>
+        <property name="compName" column="comp_name"/>
+        <property name="compMobile" column="comp_mobile"/>
+        <property name="isNm" column="is_NM"/>
+        <property name="compTime" column="comp_time"/>
+        <property name="compTitle" column="comp_title"/>
+        <property name="toCompName" column="to_comp_name"/>
+        <property name="toCompDept" column="to_comp_dept"/>
+        <property name="compContent" column="comp_content"/>
+        <property name="state" column="state"/>
+        <set name="complainReplies" inverse="true">
+            <key>
+                <column name="comp_id"/>
+            </key>
+            <one-to-many not-found="ignore" class="com.sys.nsfw.complain.test.ComplainReply"/>
+        </set>
+    </class>
+</hibernate-mapping>

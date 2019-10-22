@@ -6,6 +6,7 @@ import com.sys.basecore.action.BaseAction;
 import com.sys.basecore.exception.ActionException;
 import com.sys.basecore.exception.ServiceException;
 import com.sys.basecore.exception.SysException;
+import com.sys.basecore.util.QueryHelper;
 import com.sys.nsfw.role.service.RoleService;
 import com.sys.nsfw.user.entity.User;
 import com.sys.nsfw.user.entity.UserRole;
@@ -18,6 +19,7 @@ import org.apache.struts2.ServletActionContext;
 import org.aspectj.util.FileUtil;
 import org.hibernate.envers.RevisionEntity;
 import org.junit.Test;
+import sun.rmi.server.UnicastServerRef;
 
 import javax.annotation.Resource;
 import javax.servlet.ServletOutputStream;
@@ -25,6 +27,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.sql.rowset.serial.SerialException;
 import java.io.File;
 import java.io.IOException;
+import java.net.URLDecoder;
 import java.util.List;
 import java.util.UUID;
 
@@ -47,12 +50,22 @@ public class UserAction extends BaseAction {
     private String userExcelFileName;
 
     private String[] userRoleIds;
+    private String account;
+    private String strAccount;
 
 
     //列表页面
     public String listUI() throws Exception{
+        QueryHelper queryHelper = new QueryHelper(User.class, "u");
         try {
-            userList = userService.findObjects();
+            if(user != null){
+                if(StringUtils.isNotBlank(user.getAccount())){
+                    user.setAccount(URLDecoder.decode(user.getAccount(),"utf-8"));
+                    queryHelper.addCondition("u.account like ?","%"+user.getAccount()+"%");
+                }
+            }
+//            userList = userService.findObjects();
+            pageResult = userService.getPageResult(queryHelper, getPageNo(), getPageSize());
         } catch (Exception e) {
 //            throw new ActionException("action 66666666666666!!!!!"+ e.getMessage());
             throw new Exception(e.getMessage());
@@ -61,6 +74,10 @@ public class UserAction extends BaseAction {
     }
     //跳转到新增页面
     public String addUI(){
+        //解决查询条件覆盖的问题
+        strAccount = user.getAccount();
+        //将 user 对象中的数据清除
+        user = new User();
         //加载角色列表
         ActionContext.getContext().getContextMap().put("roleList", roleService.findObjects());
         return "addUI";
@@ -69,6 +86,7 @@ public class UserAction extends BaseAction {
     public String add(){
         try {
             if(user != null){
+
                 //处理头像
                 if(headImg != null){
                     //1、保存头像到 upload/user
@@ -84,6 +102,7 @@ public class UserAction extends BaseAction {
                     user.setHeadImg("user/"+fileName);
                 }
                 userService.saveUserAndRole(user, userRoleIds);
+                user = null;
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -95,6 +114,9 @@ public class UserAction extends BaseAction {
         //加载角色列表
         ActionContext.getContext().getContextMap().put("roleList", roleService.findObjects());
         if (user != null && user.getId() != null) {
+            //解决查询条件覆盖的问题
+            strAccount = user.getAccount();
+
             user = userService.findObjectById(user.getId());
             //处理角色回显
             List<UserRole> list = userService.getUserRolesByUserId(user.getId());
@@ -138,6 +160,9 @@ public class UserAction extends BaseAction {
     //删除
     public String delete(){
         if(user != null && user.getId() != null){
+            //解决查询条件覆盖的问题
+            strAccount = user.getAccount();
+
             userService.delete(user.getId());
         }
         return "list";
@@ -145,6 +170,9 @@ public class UserAction extends BaseAction {
     //批量删除
     public String deleteSelected(){
         if(selectedRow != null){
+            //解决查询条件覆盖的问题
+            strAccount = user.getAccount();
+
             for(String id: selectedRow){
                 userService.delete(id);
             }
@@ -180,6 +208,15 @@ public class UserAction extends BaseAction {
      * Create by y_zzu on 2019/10/7 on 17:42
      */
     public String importExcel(){
+
+        try{
+            //解决查询条件覆盖的问题
+            strAccount = user.getAccount();
+        }catch(Exception e){
+            e.printStackTrace();
+            throw new RuntimeException(e);
+        }
+
         //1.获取 excel 文件
         if(userExcel != null){
             //是否是 Excel
@@ -292,5 +329,21 @@ public class UserAction extends BaseAction {
 
     public void setUserRoleIds(String[] userRoleIds) {
         this.userRoleIds = userRoleIds;
+    }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
+    }
+
+    public String getStrAccount() {
+        return strAccount;
+    }
+
+    public void setStrAccount(String strAccount) {
+        this.strAccount = strAccount;
     }
 }

@@ -1,5 +1,8 @@
 package com.sys.basecore.dao;
 
+import com.sys.basecore.page.PageResult;
+import com.sys.basecore.util.QueryHelper;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -14,5 +17,8 @@ public interface BaseDao<T> {
     public T findObjectById(Serializable id);
     //查找列表
     public List<T> findObjects();
-
+    //条件查询实体列表--查询助手queryHelper
+    List<T> findObjects(QueryHelper queryHelper);
+    //分页条件查询实体列表--查询助手queryHelper
+    PageResult getPageResult(QueryHelper queryHelper, int pageNo, int pageSize);
 }
